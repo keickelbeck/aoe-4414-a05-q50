@@ -70,8 +70,8 @@ else:
 
 # write script below this line
 
-a = d_l_x**2 + d_l_y**2 + (d_l_x**2)/(1 - E_E**2)
-b = 2*(d_l_x*c_l_x + d_l_y*c_l_y + d_l_y*c_l_y/(1 - E_E**2))
+a = d_l_x**2 + d_l_y**2 + (d_l_z**2)/(1 - E_E**2)
+b = 2*(d_l_x*c_l_x + d_l_y*c_l_y + d_l_z*c_l_z/(1 - E_E**2))
 c = c_l_x**2 + c_l_y**2 + c_l_z**2/(1-E_E**2) - R_E_KM**2
 
 discr = b*b-4.0*a*c
